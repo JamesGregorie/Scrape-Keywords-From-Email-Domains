@@ -2,8 +2,7 @@ import csv
 from bs4 import BeautifulSoup
 import requests
 
-urls = ['http://www.hopeindustrial.com/','http://www.makeitdaisy.com', 'https://www.pepperl-fuchs.com/global/en/index.htm', 'http://www.rockwellautomation.com/', 'http://www.swiftprotech.com', '']
-cleanurls = []
+urls = []
 keywords_dict = []
 
 with open( "--ENTER EMAIL DOMAIN URLS DOC--", 'r') as f:
